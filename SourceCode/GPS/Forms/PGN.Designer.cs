@@ -425,6 +425,49 @@ namespace AgOpenGPS
             {
             }
         }
+        
+        public class CPGN_96
+        {
+            public byte[] pgn = new byte[] { 0x80, 0x81, 0x7f, 0x96, 24,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0, 0xCC };
+            
+
+        }
+
+        public class CPGN_97
+        {
+            public byte[] pgn = new byte[] { 0x80, 0x81, 0x7f, 0x97, 24,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0, 0xCC };
+            public int productEnable = 5;
+            public int targetFlowrateLowByte = 6;
+            public int targetFlowrateHighByte = 7;
+            public int targetRateLowByte = 8;
+            public int targetRateHighByte = 9;
+        }
+
+        public class CPGN_98
+        {
+            public byte[] pgn = new byte[] { 0x80, 0x81, 0x7f, 0x98, 24,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0, 0xCC };
+        }
+
+        public class CPGN_99
+        {
+            public byte[] pgn = new byte[] { 0x80, 0x81, 0x7f, 0x99, 24,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0,
+                                        0, 0, 0, 0, 0, 0, 0, 0, 0xCC };
+        }
+
+        //pgn instances
+
+        public CPGN_97 p_151 = new CPGN_97();
 
 
         //pgn instances
