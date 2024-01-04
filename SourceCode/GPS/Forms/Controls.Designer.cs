@@ -127,6 +127,14 @@ namespace AgOpenGPS
             Form form = new FormABCurve(this);
             form.Show(this);
         }
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form f = Application.OpenForms["FormSpray"];
+            Form form = new FormSpray(this);
+            form.Show(this);
+        }
+       
+        
         private void btnABLine_Click(object sender, EventArgs e)
         {
             if (isTT)

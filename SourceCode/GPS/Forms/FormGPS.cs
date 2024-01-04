@@ -208,6 +208,8 @@ namespace AgOpenGPS
         /// </summary>
         public ResourceManager _rm;
 
+        
+
         /// <summary>
         /// Heading, Roll, Pitch, GPS, Properties
         /// </summary>

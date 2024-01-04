@@ -15,7 +15,8 @@ namespace AgOpenGPS
         public double farLeftSpeed = 0;
         public double farRightPosition = 0;
         public double farRightSpeed = 0;
-
+        public int targetRate = 0;
+        public int productEnable = 0;
         public double overlap;
         public double trailingHitchLength, tankTrailingHitchLength;
         public double offset;
